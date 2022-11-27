@@ -1,0 +1,48 @@
+/* color palette: https://coolors.co/palette/0d1321-1d2d44-3e5c76-748cab-f0ebd8 */
+/* darkest blue: 0D1321 */
+/* dark blue: 1D2D44 */
+/* mid blue: 3E5C76 */
+/* light blue: 748CAB */
+/* cream: F0EBD8 */
+
+body {
+  background-color: #F0EBD8;
+  font-family: "Courier New";
+  border: 1px dotted #0D1321;
+}
+
+#name, #byline {
+  text-align: center;
+  color: #0D1321;
+  font-weight: bolder;
+}
+
+#about_me {
+ background-color: #748CAB;
+ font-weight: bolder;
+ color: #0D1321;
+}
+
+#projects {
+  background-color: #3E5C76;
+  font-weight: bolder;
+  color: #F0EBD8;
+}
+
+#extras {
+  background-color: #1D2D44;
+  color: #F0EBD8;
+  font-weight: bolder;
+}
+
+h2 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: x-small;
+  font-weight: bolder;
+  background-color: #0D1321;
+  color: #F0EBD8;
+}
