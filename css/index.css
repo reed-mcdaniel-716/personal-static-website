@@ -1,37 +1,61 @@
-/* color palette: https://coolors.co/palette/0d1321-1d2d44-3e5c76-748cab-f0ebd8 */
-/* darkest blue: 0D1321 */
-/* dark blue: 1D2D44 */
-/* mid blue: 3E5C76 */
-/* light blue: 748CAB */
-/* cream: F0EBD8 */
+/* color palette: https://coolors.co/palette/0a0908-22333b-eae0d5-c6ac8f-5e503f */
+/* near black: #0A0908 */
+/* dark teal: #22333B */
+/* cream: #EAE0D5 */
+/* toffee: #C6AC8F */
+/* coacoa: #5E503F */
 
-body {
-  background-color: #F0EBD8;
+* {
   font-family: "Courier New";
-  border: 1px dotted #0D1321;
 }
 
-#name, #byline {
+body {
+  background-color: #C6AC8F;
+  border: 2px dotted #0A0908;
+}
+
+#inset {
+  background-color: #EAE0D5;
+  margin: 10px;
+  height: 94vh;
+}
+
+#header {
   text-align: center;
-  color: #0D1321;
+  color: #0A0908;
   font-weight: bolder;
+  padding-top: 4px;
+}
+
+#name {
+  line-height: 0.2;
+}
+
+#pronouns {
+  color: #656463;
+}
+
+.card {
+  height: 100px;
+  width: 400px;
+  margin: 0 auto;
 }
 
 #about_me {
- background-color: #748CAB;
+ background-color: #22333B;
  font-weight: bolder;
- color: #0D1321;
+ color: #EAE0D5;
 }
 
 #projects {
-  background-color: #3E5C76;
+  background-color: #C6AC8F;
   font-weight: bolder;
-  color: #F0EBD8;
+  color: #0A0908;
 }
 
 #extras {
-  background-color: #1D2D44;
-  color: #F0EBD8;
+  background-color: #5E503F;
+  color: #EAE0D5;
   font-weight: bolder;
 }
 
@@ -39,10 +63,11 @@ h2 {
   text-align: center;
 }
 
-footer {
+#footer {
   text-align: center;
-  font-size: x-small;
+  font-size: small;
   font-weight: bolder;
-  background-color: #0D1321;
-  color: #F0EBD8;
+  background-color: #0A0908;
+  color: #EAE0D5;
+  margin: 0 auto;
 }
