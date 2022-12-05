@@ -6,24 +6,25 @@
 /* coacoa: #5E503F */
 
 * {
-  font-family: "Courier New";
+  /* including fallback fonts */
+  font-family: 'Courier New', Courier, monospace;
 }
 
 body {
   background-color: #C6AC8F;
-  border: 2px dotted #0A0908;
 }
 
 #inset {
   background-color: #EAE0D5;
   margin: 10px;
   height: 94vh;
+  border-radius: 0.7%;
 }
 
 #header {
   text-align: center;
   color: #0A0908;
-  font-weight: bolder;
+  font-weight: bold;
   padding-top: 4px;
 }
 
@@ -35,10 +36,16 @@ body {
   color: #656463;
 }
 
+#byline {
+  font-weight: bolder;
+}
+
 .card {
   height: 100px;
-  width: 400px;
+  width: 500px;
   margin: 0 auto;
+  padding: 2%;
+  font-size: 0.8rem;
 }
 
 #about_me {
@@ -61,6 +68,11 @@ body {
 
 h2 {
   text-align: center;
+}
+
+p {
+  font-weight: normal;
+  text-align: justify;
 }
 
 #footer {
