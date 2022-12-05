@@ -17,7 +17,7 @@ body {
 #inset {
   background-color: #EAE0D5;
   margin: 10px;
-  height: 94vh;
+  height: 94%;
   border-radius: 0.7%;
 }
 
@@ -41,8 +41,8 @@ body {
 }
 
 .card {
-  height: 100px;
-  width: 500px;
+  height: 20%;
+  width: 90%;
   margin: 0 auto;
   padding: 2%;
   font-size: 0.8rem;
@@ -73,6 +73,7 @@ h2 {
 p {
   font-weight: normal;
   text-align: justify;
+  text-overflow: ellipsis;
 }
 
 #footer {
@@ -82,4 +83,6 @@ p {
   background-color: #0A0908;
   color: #EAE0D5;
   margin: 0 auto;
+  height: 3%;
+  width: 100%;
 }
