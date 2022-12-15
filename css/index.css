@@ -79,10 +79,19 @@ p {
 #footer {
   text-align: center;
   font-size: small;
-  font-weight: bolder;
   background-color: #0A0908;
   color: #EAE0D5;
   margin: 0 auto;
-  height: 3%;
+  height: 4%;
   width: 100%;
+}
+
+a {
+  text-decoration: underline;
+  color: #EAE0D5;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bolder;
 }
