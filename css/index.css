@@ -24,7 +24,6 @@ body {
 #header {
   text-align: center;
   color: #0A0908;
-  font-weight: bold;
   padding-top: 4px;
 }
 
@@ -36,49 +35,47 @@ body {
   color: #656463;
 }
 
-#byline {
-  font-weight: bolder;
-}
-
 .card_container {
   display: grid;
-  gap: 0.2rem;
+  gap: 1%;
   align-content: space-between;
   justify-content: center;
   grid-template-rows: repeat(3, 1fr);
+  margin: 2%;
 }
 
 .card {
   width: 90%;
   margin: 0 auto;
   padding: 2%;
-  font-size: 0.8rem;
 }
 
 #about_me {
  background-color: #22333B;
- font-weight: bolder;
  color: #EAE0D5;
 }
 
 #projects {
   background-color: #C6AC8F;
-  font-weight: bolder;
   color: #0A0908;
 }
 
 #extras {
   background-color: #5E503F;
   color: #EAE0D5;
-  font-weight: bolder;
 }
 
 h2 {
   text-align: center;
+  font-weight: 700;
+}
+
+.card h2 {
+  text-decoration: underline;
 }
 
 p {
-  font-weight: normal;
+  font-weight: 600;
   text-align: justify;
   text-overflow: ellipsis;
 }
@@ -90,22 +87,24 @@ p {
   margin: 0 auto;
   height: 4%;
   width: 100%;
+  display: block;
 }
 
-#footer p {
+#footer .footer_link_container {
   text-align: center;
   padding-top: 1%;
   padding-bottom: 1%;
+  font-weight: 700;
 }
 
 #footer a {
   text-decoration: underline;
   color: #EAE0D5;
-  line-height: 0.8;
+  line-height: 0.7;
 }
 
 #footer a:hover {
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: 400;
   font-style: italic;
 }
