@@ -40,6 +40,14 @@ body {
   font-weight: bolder;
 }
 
+.card_container {
+  display: grid;
+  gap: 0.2rem;
+  align-content: space-between;
+  justify-content: center;
+  grid-template-rows: repeat(3, 1fr);
+}
+
 .card {
   width: 90%;
   margin: 0 auto;
