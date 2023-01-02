@@ -1,28 +1,42 @@
-/* color palette: https://coolors.co/palette/0a0908-22333b-eae0d5-c6ac8f-5e503f */
-/* near black: #0A0908 */
-/* dark teal: #22333B */
-/* cream: #EAE0D5 */
-/* toffee: #C6AC8F */
-/* coacoa: #5E503F */
+/*https://coolors.co/834e34-ad8366-d4c7b4-312e2a-271a16-887266*/
+/*photo source: https://unsplash.com/photos/gUK3lA3K7Yo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink*/
+
+:root {
+  /* CSS HEX */
+  --russet: #834e34ff;
+  --cafe-au-lait: #ad8366ff;
+  --bone: #d4c7b4ff;
+  --jet: #312e2aff;
+  --bistre: #271a16ff;
+  --cinereous: #887266ff;
+
+  /* CSS HSL */
+  --russet: hsla(20, 43%, 36%, 1);
+  --cafe-au-lait: hsla(25, 30%, 54%, 1);
+  --bone: hsla(36, 27%, 77%, 1);
+  --jet: hsla(34, 8%, 18%, 1);
+  --bistre: hsla(14, 28%, 12%, 1);
+  --cinereous: hsla(21, 14%, 47%, 1);
+}
 
 * {
   /* including fallback fonts */
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Anybody', cursive;
+
 }
 
 body {
-  background-color: #C6AC8F;
-}
-
-#inset {
-  background-color: #EAE0D5;
-  margin: 10px;
-  border-radius: 0.7%;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 2fr 6fr 1fr;
 }
 
 #header {
   text-align: center;
-  color: #0A0908;
+  background-color: var(--bistre);
+  color: var(--bone);
   padding-top: 4px;
 }
 
@@ -31,46 +45,40 @@ body {
 }
 
 #pronouns {
-  color: #656463;
+  opacity: 0.4;
 }
 
 .card_container {
   display: grid;
-  gap: 1%;
-  align-content: space-between;
   justify-content: center;
   grid-template-rows: repeat(3, 1fr);
-  margin: 2%;
+  width: 100%;
 }
 
 .card {
-  width: 90%;
   margin: 0 auto;
   padding: 2%;
+  width: 100%;
 }
 
 #about_me {
- background-color: #22333B;
- color: #EAE0D5;
+ background-color: var(--bone);
+ color: var(--bistre);
 }
 
 #projects {
-  background-color: #C6AC8F;
-  color: #0A0908;
+  background-color: var(--russet);
+  color: var(--jet);
 }
 
 #extras {
-  background-color: #5E503F;
-  color: #EAE0D5;
+  background-color: var(--cinereous);
+  color: var(--bone);
 }
 
 h2 {
   text-align: center;
   font-weight: 700;
-}
-
-.card h2 {
-  text-decoration: underline;
 }
 
 p {
@@ -81,12 +89,8 @@ p {
 
 #footer {
   font-size: 0.9rem;
-  background-color: #0A0908;
+  background-color: var(--jet);
   color: #EAE0D5;
-  margin: 0 auto;
-  height: 4%;
-  width: 100%;
-  display: block;
 }
 
 #footer .footer_link_container {
