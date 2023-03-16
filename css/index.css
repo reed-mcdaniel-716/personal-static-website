@@ -3,20 +3,12 @@
 
 :root {
   /* CSS HEX */
-  --russet: #834e34ff;
-  --cafe-au-lait: #ad8366ff;
-  --bone: #d4c7b4ff;
-  --jet: #312e2aff;
-  --bistre: #271a16ff;
-  --cinereous: #887266ff;
-
-  /* CSS HSL */
-  --russet: hsla(20, 43%, 36%, 1);
-  --cafe-au-lait: hsla(25, 30%, 54%, 1);
-  --bone: hsla(36, 27%, 77%, 1);
-  --jet: hsla(34, 8%, 18%, 1);
-  --bistre: hsla(14, 28%, 12%, 1);
-  --cinereous: hsla(21, 14%, 47%, 1);
+  --russet: #9b7759;
+  --cafe-au-lait: #ad8366;
+  --bone: #d4c7b4;
+  --jet: #141311;
+  --bistre: #271a16;
+  --cinereous: #4b3f39;
 }
 
 html, body {
@@ -34,6 +26,7 @@ body {
 }
 
 #header {
+  /* passes WCAG */
   text-align: center;
   background-color: var(--bistre);
   color: var(--bone);
@@ -45,7 +38,7 @@ body {
 }
 
 #pronouns {
-  opacity: 0.4;
+  opacity: 0.7;
 }
 
 .card_container {
@@ -59,16 +52,19 @@ body {
 }
 
 #about_me {
- background-color: var(--bone);
- color: var(--bistre);
+  /* passes WCAG */
+  background-color: var(--bone);
+  color: var(--bistre);
 }
 
 #projects {
+  /* passes WCAG */
   background-color: var(--russet);
   color: var(--jet);
 }
 
 #extras {
+  /* passes WCAG */
   background-color: var(--cinereous);
   color: var(--bone);
 }
@@ -85,6 +81,7 @@ p {
 }
 
 #footer {
+  /* passes WCAG */
   font-size: 0.9rem;
   background-color: var(--jet);
   color: var(--bone);
