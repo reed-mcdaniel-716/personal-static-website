@@ -25,7 +25,7 @@ body {
   font-family: 'Anybody', cursive;
 }
 
-#header {
+header {
   /* passes WCAG */
   text-align: center;
   background-color: var(--bistre);
@@ -80,21 +80,21 @@ p {
   text-overflow: ellipsis;
 }
 
-#footer {
+footer {
   /* passes WCAG */
   font-size: 0.9rem;
   background-color: var(--jet);
   color: var(--bone);
 }
 
-#footer .footer_link_container {
+footer .footer_link_container {
   text-align: center;
   padding-top: 1%;
   padding-bottom: 1%;
   font-weight: 700;
 }
 
-#footer a {
+footer a {
   text-decoration: underline;
   color: #EAE0D5;
   line-height: 0.7;
